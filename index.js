@@ -51,7 +51,7 @@ client.on("messageCreate", (message) => {
 
                 embeds.push(new MessageEmbed()
                     .setColor('#0099ff')
-                    .setFooter({ text: 'Criado por: Gabriel Fabricio', iconURL: 'https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/76680619_1153975204811504_632118572067323904_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHHboSJ5Vu24WCZGCOXra2A74-aCMiVmiTvj5oIyJWaJHxVuQP1yT7ylskNiwldmtxzRwwx7eAkwPDYh84P2tmW&_nc_ohc=of3GEDXvFpIAX9GzP3l&_nc_ht=scontent.fcgh37-1.fna&oh=00_AT-i49-yBqswLdWmFvqMslGSCte-D6XdpQkUqfRrrlSmMQ&oe=6268D9DE' })
+                    .setFooter({ text: 'Criado por: Patrick Finardi', iconURL: 'https://scontent.fcgh37-1.fna.fbcdn.net/v/t1.6435-9/76680619_1153975204811504_632118572067323904_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHHboSJ5Vu24WCZGCOXra2A74-aCMiVmiTvj5oIyJWaJHxVuQP1yT7ylskNiwldmtxzRwwx7eAkwPDYh84P2tmW&_nc_ohc=of3GEDXvFpIAX9GzP3l&_nc_ht=scontent.fcgh37-1.fna&oh=00_AT-i49-yBqswLdWmFvqMslGSCte-D6XdpQkUqfRrrlSmMQ&oe=6268D9DE' })
                 );
 
                 message.channel.send(
